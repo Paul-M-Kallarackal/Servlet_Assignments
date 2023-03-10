@@ -14,5 +14,15 @@
     <servlet-name>HelloServlet</servlet-name>
     <url-pattern>/hello</url-pattern>
   </servlet-mapping>
+    <servlet>
+    <servlet-name>RankServlet</servlet-name>
+    <servlet-class>RankServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RankServlet</servlet-name>
+    <url-pattern>/rank</url-pattern>
+  </servlet-mapping>
+
 
 </web-app>
